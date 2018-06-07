@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Gothic';
+    src: url('../fonts/GOTHIC.TTF');
+}
+
+body {
+    background-image: url('../images/background.jpg');
+}
+
+.content {
+    position: absolute;
+    bottom: 30%;
+    background: rgba(224, 105, 8, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 895px) {
+    .content {
+        padding: 0;
+        font-size: 25px;
+    }
+    /* #center {
+        display: none;
+    } */
+    #ab {
+        bottom: 0;
+        padding: 0%;
+        font-size: 0px;
+    }
+    /* #mon {
+        margin-bottom: 0;
+        padding: 0;
+        padding-top: 0%;
+        font-size: 100%;
+        text-align: center;
+        margin-left: 200px;
+    } */
+    div.content.text-center.about.pl {
+        bottom: 0;
+        top: 50px;
+    }
+    div.content.text-center.about.pl>p#place {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    div#ab.row.content.text-center.about {
+        bottom: 100px;
+    }
+    p#center.col-sm-6.about {
+        font-size: 80px;
+        text-align: center;
+    }
+}
+
+.about {
+    font-size: 200%;
+    text-align: center;
+}
+
+.about div p {
+    text-align: center;
+}
+
+#center {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    padding-top: 40px;
+}
+
+#mon {
+    font-family: Calibri;
+    font-size: 50px;
+}
+
+.about #place {
+    padding: 50px;
+}
+
+.order {
+    border-radius: 20px;
+    font-family: 'Gothic';
+    color: rgb(138, 211, 149);
+    font-size: 20px;
+    padding: 2px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(138, 211, 149);
+}
+
+p#mon.col-sm-6.about {
+    font-family: 'Gothic';
+}
+
+div.content.text-center.about.pl>p#place {
+    font-family: 'Gothic';
+}
+
+a.nav-link.link:visited {
+    border: 2px solid #fff;
+}
+
+nav.navbar.navbar-dropdown.navbar-fixed-top {
+    background: #d8af75 url('../images/background.jpg');
+}
+
+.data-img {
+    border: 1px solid #cccccc;
+    font-size: 14px;
+    border-radius: 5px;
+    padding: 16px;
+    /* background-color: #f1f1f1; */
+}
+
+div#containbox.row {
+    box-sizing: border-box;
+    transition: transform .1s;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .2);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    margin-top: 115px;
+}
+
+input[type=submit] {
+    margin-top: 5px;
+}
